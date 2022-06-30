@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-slate-800;
+    padding: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-slate-300/30;
+    @apply hover:bg-slate-300/50;
+    @apply rounded-lg;
+    @apply border-x-2;
+    @apply border-slate-800;
+    border-style: solid; 
+}
