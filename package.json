@@ -2,7 +2,7 @@
   "name": "products-app-front-end",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://DaDasStudios.github.io/typescript-products-app",
+  "homepage": "https://dadasstudios.github.io/typescript-products-app",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
